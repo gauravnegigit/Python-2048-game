@@ -48,7 +48,7 @@ def game_status(mat):
 	for i in range(3):
 		for j in range(3):
 			if mat[i][j] == mat[i+1][j] or mat[i][j] == mat[i][j+1] :
-				return 'GAME NOT OVER'
+				return 'GAME NOT OVER!'
 	return 'YOU LOST !'
 
 def compress(mat):
